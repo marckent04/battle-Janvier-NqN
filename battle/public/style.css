@@ -1,0 +1,107 @@
+#header {
+    background-image: url('./img/cover.jpeg');
+    background-size: cover;
+}
+
+.pinkUnder {
+    border-bottom: 2px solid #ff6699;
+}
+
+.active {
+    color: #ff6699;
+}
+
+/*SECTION 1*/
+
+.navbar-brand, .navbar-header {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 65px;
+}
+
+#headerCarousel {
+    padding-top: 10%;
+}
+.jumbotron {
+    background: transparent !important;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-size: 6em;
+}
+
+.jumbotron h2 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+
+.ryu {
+    background: #ff6699;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #ff6699;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+}
+
+
+.ryota {
+    position: relative;
+    left: 15px;
+    background: transparent;
+    text-transform: uppercase;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 53px;
+    width: 120px;
+}
+#services {
+    position: relative;
+}
+#services .icons {
+    display: inline;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#services .icons .glyphicon {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+
+}
+
+#services h3 {
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+#services .col-md-4 {
+    margin-top: 20px;
+}
+
+
+
+#services .col-md-4 .case {
+    padding: 25px 10px;
+    box-shadow: 0px 0px 10px #eaeaeb;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shadow {
+    position: absolute;
+    z-index: -1;
+    left: 45%;
+    font-size: 40px;
+    top: 10%;
+    color: #ededed;
+}
